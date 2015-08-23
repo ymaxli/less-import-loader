@@ -1,0 +1,16 @@
+{
+  "name": "less-import-loader",
+  "version": "0.0.1",
+  "description": "add global dependencies to less file for webpack ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "less",
+    "import",
+    "webpack"
+  ],
+  "author": "Max <liyue4158@gmail.com>",
+  "license": "ISC"
+}
