@@ -1,6 +1,6 @@
 {
   "name": "less-import-loader",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "add global dependencies to less file for webpack ",
   "main": "index.js",
   "repository": {
