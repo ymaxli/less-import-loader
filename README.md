@@ -1,4 +1,4 @@
-# less-import-loader
+# less-import-loader[![Build Status](https://travis-ci.org/MaxLee1994/less-import-loader.svg?branch=master)](https://travis-ci.org/MaxLee1994/less-import-loader)
 
 add global dependencies to less file for webpack
 
