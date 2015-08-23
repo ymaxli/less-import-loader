@@ -1,6 +1,6 @@
-# less-import-loader[![Build Status](https://travis-ci.org/MaxLee1994/less-import-loader.svg?branch=master)](https://travis-ci.org/MaxLee1994/less-import-loader)
+# less-import-loader [![Build Status](https://travis-ci.org/MaxLee1994/less-import-loader.svg?branch=master)](https://travis-ci.org/MaxLee1994/less-import-loader)
 
-add global dependencies to less file for webpack
+add global dependencies to less file for webpack, this loader would resolve absolute global file path to relative path.
 
 ## Installation
 
@@ -23,13 +23,15 @@ add less-import-loader option in webpack.config.js
 
 ```js
 lessImportLoader: {
-    base: process.cwd() + '/src/less/base'
+    base: process.cwd() + '/src/less/base' // must be absolute path
 }
 ```
 
 Before:
 
 ```less
+src/test/a.less
+
 a {
     color: white;
 }
@@ -38,7 +40,7 @@ a {
 After:
 
 ```less
-@import "/src/less/base";
+@import "../less/base";
 a {
     color: white
 }

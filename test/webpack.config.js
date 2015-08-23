@@ -9,6 +9,6 @@ module.exports = {
         filename: 'test.js',
     },
     lessImportLoader: {
-        base: '../public/base'
+        base: path.join(process.cwd(), 'test/less/base')
     }
 };

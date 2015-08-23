@@ -3,6 +3,8 @@
  * @author Max
  **/
 
+var path = require('path');
+
 module.exports = function(source) {
     this.cacheable();
 
@@ -11,7 +13,7 @@ module.exports = function(source) {
     var result = source;
 
     if(options && options.base) {
-        result = '@import "' + options.base + '";\n' + result;
+        result = '@import "' + path.relative(path.dirname(this.resourcePath), options.base) + '";\n' + result;
     }
 
     return result;
