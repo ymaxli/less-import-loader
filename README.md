@@ -29,9 +29,8 @@ lessImportLoader: {
 
 Before:
 
-```less
 src/test/a.less
-
+```less
 a {
     color: white;
 }
