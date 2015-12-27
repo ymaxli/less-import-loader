@@ -10,5 +10,8 @@ module.exports = {
     },
     lessImportLoader: {
         base: path.join(process.cwd(), 'test/less/base')
+    },
+    anotherConfig: {
+        base: path.join(process.cwd(), 'test/less/base-another')
     }
 };
