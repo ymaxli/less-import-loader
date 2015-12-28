@@ -1,7 +1,7 @@
 {
-  "name": "less-import-loader",
+  "name": "xnl-less-base-import-loader",
   "version": "0.1.0",
-  "description": "add global dependencies to less file for webpack ",
+  "description": "add global dependencies to less file for webpack, XNL workflow",
   "main": "index.js",
   "repository": {
     "type": "git",
