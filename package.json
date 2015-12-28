@@ -17,7 +17,10 @@
   ],
   "author": "Max <liyue4158@gmail.com>",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "loader-utils": "^0.2.12",
+    "object-assign": "^4.0.1"
+  },
   "devDependencies": {
     "expect.js": "^0.3.1",
     "fs-extra": "^0.23.1",
